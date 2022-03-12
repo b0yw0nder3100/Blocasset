@@ -1,5 +1,6 @@
 footer {
   padding: 68px 47px 0;
+  overflow: hidden;
 }
 .footer-top {
   display: flex;
@@ -24,10 +25,11 @@ footer {
   padding: 61px 0 0 0;
 }
 .footer-top-content-one input {
-  padding: 13.5px 20px;
+  padding: 17px 20px;
   width: 283px;
   border: 1px solid var(--neutral100);
   border-radius: 6px;
+  font-size: 14px;
 }
 .footer-top-content-one input::placeholder {
   font-size: 14px;
@@ -72,6 +74,9 @@ footer {
   background: var(--neutral400);
   opacity: 0.1;
 }
+.footer-line.two {
+  display: none;
+}
 .footer-bottom {
   padding: 12px 0 49px 0;
   display: flex;
@@ -84,13 +89,14 @@ footer {
 }
 .footer-bottom-social {
   background: var(--main500);
-  padding: 2.5px 7.5px;
+  padding: 7px 7px;
   border-radius: 6px;
   cursor: pointer;
 }
-.footer-bottom-social img {
+.footer-bottom-social i {
   width: 12px;
   height: 12px;
+  color: var(--white);
 }
 @media (max-width: 1024px) {
   .footer-top-content p {
@@ -117,8 +123,16 @@ footer {
   }
 }
 @media (max-width: 600px) {
+  .footer-line.two {
+    display: flex;
+    margin: 51px 0 0 -20px;
+    height: 1.5px;
+    background: var(--neutral400);
+    opacity: 0.1;
+    width: 112%;
+  }
   footer {
-    padding: 68px 20px 0;
+    padding: 18px 20px 0;
   }
   .footer-top {
     display: flex;

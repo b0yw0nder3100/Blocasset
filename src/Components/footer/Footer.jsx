@@ -1,12 +1,12 @@
 import React from 'react'
 import './footer.css'
 import logo from '../../Assets/logolaptop.png'
-import instagram from '../../Assets/Media/instagram.png'
-import twitter from '../../Assets/Media/twitter.png'
-import linkedin from '../../Assets/Media/linkedin.png'
 const Footer = () => {
   return (
     <footer>
+      <div className='footer-line two'>
+
+      </div>
       <div className='footer-top'>
         <div className='footer-top-content'>
           <img src={logo} alt="blocasset logo"  className='header-logo'/>
@@ -50,13 +50,13 @@ const Footer = () => {
         <p>&copy;2022 All Rights Reserved.</p>
         <div className='footer-bottom-socials'>
           <div className='footer-bottom-social'>
-            <img src={twitter} alt='twitter' />
+            <i className="fab fa-twitter"></i>
           </div>
           <div className='footer-bottom-social'>
-            <img src={instagram} alt='instagram' />
+            <i className="fab fa-instagram"></i>
           </div>
           <div className='footer-bottom-social'>
-            <img src={linkedin} alt='linkedin' />
+            <i className="fab fa-linkedin"></i>
           </div>
         </div>
 
