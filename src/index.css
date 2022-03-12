@@ -1,0 +1,45 @@
+@import url("./styles/stylesheet.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  outline: none;
+  list-style: none;
+  font-family: "Euclid Square";
+}
+button {
+  cursor: pointer;
+}
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --main900: #01080b;
+  --main500: #062638;
+  --main400: #385160;
+  --neutral900: #111827;
+  --neutral800: #1f2937;
+  --neutral700: #374151;
+  --neutral600: #4b5563;
+  --neutral500: #6b7280;
+  --neutral400: #9ca3af;
+  --neutral300: #d1d5db;
+  --neutral200: #e5e7eb;
+  --neutral100: #f3f4f6;
+  --neutral50: #f9fafb;
+  --gray3: #828282;
+  --accent500: #ff6d3b;
+  --accent600: #cc572f;
+}
+select,
+input {
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: var(--white);
+}
