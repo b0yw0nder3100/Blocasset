@@ -37,11 +37,9 @@ const Hero = () => {
       {
         data.map(item => {
           return (
-              item.id === 5 && dim < 802 ? (             <div key={item.id} className="next-sec" style={{ display: 'none'}}>
+            <div key={item.id} className="next-sec">
               <img src={item.image} alt='doas' />
-            </div> ) : (            <div key={item.id} className="next-sec">
-              <img src={item.image} alt='doas' />
-            </div> )
+            </div> 
             
           )
         })

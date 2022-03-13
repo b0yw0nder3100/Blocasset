@@ -251,11 +251,10 @@ option {
 }
 @media (max-width: 800px) {
   .next-sec img {
-    width: 190%;
-    padding-right: 240px;
+    width: 240px;
   }
   .next-section {
-    padding-left: 20px;
+    padding: 0 20px;
     overflow: scroll;
   }
 }
