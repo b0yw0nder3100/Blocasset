@@ -5,6 +5,9 @@
   z-index: 1;
   overflow-y: scroll;
 }
+.mobile-nav::-webkit-scrollbar {
+  width: 0;
+}
 .mobile-header-nav {
   padding: 28px 0px;
   display: block;

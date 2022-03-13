@@ -26,8 +26,13 @@ const data = [
     },
     {
         id: 5,
+        name: 'defi',
+        image: doa
+    },
+    {
+        id: 6,
         name: 'sm',
-        image: Sm
+        image: Defi
     }
 ]
 
